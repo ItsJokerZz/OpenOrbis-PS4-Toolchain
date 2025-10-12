@@ -396,7 +396,7 @@ void sceKernelSetGPI();
 // Empty Comment
 void sceKernelSetGPO();
 // Empty Comment
-void sceKernelSetProcessName();
+void sceKernelSetProcessName(const char * name);
 // Empty Comment
 int32_t sceKernelSetPrtAperture(int32_t, void *, size_t);
 // Empty Comment
